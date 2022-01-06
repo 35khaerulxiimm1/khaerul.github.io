@@ -1,5 +1,6 @@
 body {
-    font-family: "Avenir Next";
+    font-family: "Arial";
+    background-color: rgb(156, 189, 189);
 }
 li{
     list-style: none;
@@ -12,45 +13,103 @@ li{
     padding: 10px 10px;
 }
 .header2{
-    background-color: cyan;
-    color:darkblue;
-    height:90px;
-    padding: 5px 5px;
+    background-color: rgb(15, 240, 240);
+    margin-top: 20px;
+    height:85px;
+    padding: 10px 10px;
+}
+.header2 li:hover {
+  background-color: rgb(240, 32, 32); 
+  font-size:25px;
+  color:rgb(255, 255, 255);
 }
 .logo1 img{
-    border:5px solid blue;
+    float:left;
+  border:5px solid blue;
     border-radius:10px;
-    display:block;
+    width:80px;
+    height:80px;
+    
 
 }
 .logo2{
-    float:right;
-    font-size: 30px;
-    padding: 20px 30px;
+  float: right;
+  font-size: 30px;
+  padding: 20px 40px;
+ color:rgb(240, 240, 240);
+ background-color:rgb(76, 48, 235);
+ border:3px solid rgb(37, 4, 156);
+ border-radius: 10px;
 }
+
 .header-list li{
-    float:left;
-    padding:33px 20px
+  float: left;
+  border-radius: 20px;
+  border:1px solid rgb(238, 44, 18);
+  padding : 20px 40px;
+  margin-left: 20px ;
+  background-color:rgb(238, 38, 24);
+  color:white;
+  font-size: 13px;
 }
-.main{
-    background-color: cornflowerblue;
-    padding: 100px 80px;
+.copy-container{
+  background-color: white;
+  
+}
+.contents{
+  height: 150px;
+ margin-top: 20px;
+ background-color : white ;
+}
+.contents p{
+  text-align: center;
+  font-size: 14px;
+}
+.contents h3{
+  padding-left: 10px;
+}
+.contents2{
+  margin-top: 20px;
+ background-color : white ;
+ height:650px;
+ padding: 15px 15px;
+}
+.contents2 h3{
+  color:red;
 }
 .contents-item{
  float:left;
- padding-left: 40px;
+ padding-left: 90px;
+ text-align: center;
+ 
+}
+  
+
+.contents-item2{
+  float: left;
+  margin-right: 100px;
+}
+.contents-item2 p{
+  text-align: center;
+  border:2px solid blue;
+border-radius:25px;
+background-color:rgb(114, 252, 1);
 }
 
 
+.section-title{
+  background-color:rgb(255, 255, 255);
+}
+
 .footer {
-        background-color: #2400f1;
-        height: 100px;
-        color: #fff;
-        padding: 40px;
+background-color: #2400f1;
+height: 100px;
+color: #fff;
+ padding: 40px;
   }
   
   .footer-logo {
-    font-size: 32px;
+    font-size: 50px;
     float: left;
   }
   
@@ -60,6 +119,7 @@ li{
   
   .footer-list2 {
     text-align: center;
+    color:gold;
   }
   
   .footer-list li { 
